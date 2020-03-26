@@ -8,6 +8,8 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
+/* Write your implementation of displayMessage() */
+
 function greet(time) {
 	let timeArray = time.split(":")
 	let hour = parseFloat(timeArray[0])
@@ -21,7 +23,7 @@ function greet(time) {
 		return "Good Afternoon"
 	}
 }
-/* Write your implementation of displayMessage() */
+
 function displayMessage(string) {
 	document.querySelector("#greeting").innerText = string
 	return
